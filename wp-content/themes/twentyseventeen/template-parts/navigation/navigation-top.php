@@ -10,6 +10,7 @@
 
 ?>
 <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentyseventeen' ); ?>">
+<<<<<<< HEAD
 	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
 		<?php
 		echo twentyseventeen_get_svg( array( 'icon' => 'bars' ) );
@@ -18,6 +19,9 @@
 		?>
 	</button>
 
+=======
+	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false"><?php echo twentyseventeen_get_svg( array( 'icon' => 'bars' ) ); echo twentyseventeen_get_svg( array( 'icon' => 'close' ) ); _e( 'Menu', 'twentyseventeen' ); ?></button>
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 	<?php wp_nav_menu( array(
 		'theme_location' => 'top',
 		'menu_id'        => 'top-menu',

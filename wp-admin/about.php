@@ -43,12 +43,32 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 			<a href="freedoms.php" class="nav-tab"><?php _e( 'Freedoms' ); ?></a>
 		</h2>
 
+		<div class="changelog point-releases">
+			<h3><?php _e( 'Maintenance and Security Releases' ); ?></h3>
+			<p><?php printf( _n( '<strong>Version %1$s</strong> addressed %2$s bug.',
+					'<strong>Version %1$s</strong> addressed %2$s bugs.', 47 ), '4.7.4', number_format_i18n( 47 ) ); ?>
+				<?php printf( __( 'For more information, see <a href="%s">the release notes</a>.' ), 'https://codex.wordpress.org/Version_4.7.4' ); ?>
+			</p>
+			<p><?php printf( _n( '<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug.',
+					'<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs.', 39 ), '4.7.3', number_format_i18n( 39 ) ); ?>
+				<?php printf( __( 'For more information, see <a href="%s">the release notes</a>.' ), 'https://codex.wordpress.org/Version_4.7.3' ); ?>
+			</p>
+			<p><?php printf( __( '<strong>Version %s</strong> addressed some security issues.' ), '4.7.2' ); ?>
+				<?php printf( __( 'For more information, see <a href="%s">the release notes</a>.' ), 'https://codex.wordpress.org/Version_4.7.2' ); ?>
+			</p>
+			<p><?php printf( _n( '<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug.',
+					'<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs.', 62 ), '4.7.1', number_format_i18n( 62 ) ); ?>
+				<?php printf( __( 'For more information, see <a href="%s">the release notes</a>.' ), 'https://codex.wordpress.org/Version_4.7.1' ); ?>
+			</p>
+		</div>
+
 		<div class="headline-feature feature-video">
 			<iframe width="1050" height="591" src="<?php echo esc_url( $video_url ); ?>" frameborder="0" allowfullscreen></iframe>
 			<script src="https://videopress.com/videopress-iframe.js"></script>
 		</div>
 
 		<hr />
+<<<<<<< HEAD
 
 		<div class="feature-section one-col">
 			<h2><?php _e( 'Presenting Twenty Seventeen' ); ?></h2>
@@ -68,6 +88,27 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 			<p class="lead-description"><?php _e( 'WordPress 4.7 adds new features to the customizer to help take you through the initial setup of a theme, with non-destructive live previews of all your changes in one uninterrupted workflow.' ); ?></p>
 		</div>
 
+=======
+
+		<div class="feature-section one-col">
+			<h2><?php _e( 'Presenting Twenty Seventeen' ); ?></h2>
+			<p class="lead-description"><?php _e( 'A brand new default theme brings your site to life with immersive featured images and video headers.' ); ?></p>
+			<picture>
+				<source media="(min-width: 450px)" srcset="https://s.w.org/images/core/4.7/twenty-seventeen-1600.jpg?v2 1600w, https://s.w.org/images/core/4.7/twenty-seventeen-493.jpg?v2 493w, https://s.w.org/images/core/4.7/twenty-seventeen-663.jpg?v2 663w, https://s.w.org/images/core/4.7/twenty-seventeen-804.jpg?v2 804w, https://s.w.org/images/core/4.7/twenty-seventeen-928.jpg?v2 928w, https://s.w.org/images/core/4.7/twenty-seventeen-1058.jpg?v2 1058w, https://s.w.org/images/core/4.7/twenty-seventeen-1173.jpg?v2 1173w, https://s.w.org/images/core/4.7/twenty-seventeen-1299.jpg?v2 1299w, https://s.w.org/images/core/4.7/twenty-seventeen-1410.jpg?v2 1410w, https://s.w.org/images/core/4.7/twenty-seventeen-1513.jpg?v2 1513w, https://s.w.org/images/core/4.7/twenty-seventeen-1595.jpg?v2 1595w" sizes="(max-width: 500px) calc(100vw - 40px), (max-width: 782px) calc(100vw - 70px), (max-width: 959px) calc(100vw - 116px), (max-width: 1290px) calc(100vw - 240px), 1050px">
+				<source srcset="https://s.w.org/images/core/4.7/twenty-seventeen-mobile-564.jpg?v2 564w, https://s.w.org/images/core/4.7/twenty-seventeen-mobile-280.jpg?v2 280w, https://s.w.org/images/core/4.7/twenty-seventeen-mobile-372.jpg?v2 372w, https://s.w.org/images/core/4.7/twenty-seventeen-mobile-454.jpg?v2 454w, https://s.w.org/images/core/4.7/twenty-seventeen-mobile-541.jpg?v2 541w" sizes="calc(100vw - 40px)">
+				<img src="https://s.w.org/images/core/4.7/twenty-seventeen-1600.jpg?v2" srcset="https://s.w.org/images/core/4.7/twenty-seventeen-1600.jpg?v2 1600w, https://s.w.org/images/core/4.7/twenty-seventeen-280.jpg?v2 280w, https://s.w.org/images/core/4.7/twenty-seventeen-493.jpg?v2 493w, https://s.w.org/images/core/4.7/twenty-seventeen-663.jpg?v2 663w, https://s.w.org/images/core/4.7/twenty-seventeen-804.jpg?v2 804w, https://s.w.org/images/core/4.7/twenty-seventeen-928.jpg?v2 928w, https://s.w.org/images/core/4.7/twenty-seventeen-1058.jpg?v2 1058w, https://s.w.org/images/core/4.7/twenty-seventeen-1173.jpg?v2 1173w, https://s.w.org/images/core/4.7/twenty-seventeen-1299.jpg?v2 1299w, https://s.w.org/images/core/4.7/twenty-seventeen-1410.jpg?v2 1410w, https://s.w.org/images/core/4.7/twenty-seventeen-1513.jpg?v2 1513w, https://s.w.org/images/core/4.7/twenty-seventeen-1595.jpg?v2 1595w" sizes="(max-width: 500px) calc(100vw - 40px), (max-width: 782px) calc(100vw - 70px), (max-width: 959px) calc(100vw - 116px), (max-width: 1290px) calc(100vw - 240px), 1050px" alt="" />
+			</picture>
+			<p><?php _e( 'Twenty Seventeen focuses on business sites and features a customizable front page with multiple sections. Personalize it with widgets, navigation, social menus, a logo, custom colors, and more. Our default theme for 2017 works great in many languages, on any device, and for a wide range of users.' ); ?></p>
+		</div>
+
+		<hr />
+
+		<div class="feature-section one-col">
+			<h2><?php _e( 'Your Site, Your Way' ); ?></h2>
+			<p class="lead-description"><?php _e( 'WordPress 4.7 adds new features to the customizer to help take you through the initial setup of a theme, with non-destructive live previews of all your changes in one uninterrupted workflow.' ); ?></p>
+		</div>
+
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 		<div class="feature-section two-col">
 			<div class="col">
 				<h3><?php _e( 'Theme Starter Content' ); ?></h3>

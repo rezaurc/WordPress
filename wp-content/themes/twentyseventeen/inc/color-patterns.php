@@ -560,14 +560,24 @@ body.colors-custom,
 	}
 }';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 	/**
 	 * Filters Twenty Seventeen custom colors CSS.
 	 *
 	 * @since Twenty Seventeen 1.0
 	 *
+<<<<<<< HEAD
 	 * @param string $css        Base theme colors CSS.
 	 * @param int    $hue        The user's selected color hue.
 	 * @param string $saturation Filtered theme color saturation level.
+=======
+	 * @param $css        string Base theme colors CSS.
+	 * @param $hue        int    The user's selected color hue.
+	 * @param $saturation string Filtered theme color saturation level.
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 	 */
 	return apply_filters( 'twentyseventeen_custom_colors_css', $css, $hue, $saturation );
 }

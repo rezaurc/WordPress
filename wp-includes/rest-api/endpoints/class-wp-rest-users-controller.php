@@ -148,7 +148,10 @@ class WP_REST_Users_Controller extends WP_REST_Controller {
 	 * The value can be an integer, 'false', false, or ''.
 	 *
 	 * @since 4.7.0
+<<<<<<< HEAD
 	 * @access public
+=======
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 	 *
 	 * @param int|bool        $value   The value passed to the reassign parameter.
 	 * @param WP_REST_Request $request Full details about the request.
@@ -1358,7 +1361,11 @@ class WP_REST_Users_Controller extends WP_REST_Controller {
 		);
 
 		$query_params['slug']    = array(
+<<<<<<< HEAD
 			'description'        => __( 'Limit result set to users with one or more specific slugs.' ),
+=======
+			'description'        => __( 'Limit result set to users with a specific slug.' ),
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 			'type'               => 'array',
 			'items'              => array(
 				'type'               => 'string',

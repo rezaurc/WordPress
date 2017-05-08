@@ -799,6 +799,20 @@ li.assigned-to-menu-location .add-new-menu-item {
 	margin-bottom: 1em;
 }
 
+<<<<<<< HEAD
+=======
+.menu-delete {
+	color: #a00;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.menu-delete:hover,
+.menu-delete:focus {
+	color: #f00;
+}
+
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 .menu-item-handle {
 	margin-top: -1px;
 }

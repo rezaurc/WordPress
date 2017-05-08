@@ -352,6 +352,10 @@ class WP_REST_Terms_Controller extends WP_REST_Controller {
 	 */
 	public function get_item( $request ) {
 		$term = $this->get_term( $request['id'] );
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 		if ( is_wp_error( $term ) ) {
 			return $term;
 		}
@@ -977,7 +981,11 @@ class WP_REST_Terms_Controller extends WP_REST_Controller {
 		);
 
 		$query_params['slug'] = array(
+<<<<<<< HEAD
 			'description'       => __( 'Limit result set to terms with one or more specific slugs.' ),
+=======
+			'description'       => __( 'Limit result set to terms with a specific slug.' ),
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 			'type'              => 'array',
 			'items'             => array(
 				'type'          => 'string'

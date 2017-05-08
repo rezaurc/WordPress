@@ -1986,7 +1986,11 @@ function get_theme_starter_content() {
 				'title' => _x( 'Home', 'Theme starter content' ),
 				'url' => home_url( '/' ),
 			),
+<<<<<<< HEAD
 			'page_home' => array( // Deprecated in favor of link_home.
+=======
+			'page_home' => array( // Deprecated in favor of home_link.
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 				'type' => 'post_type',
 				'object' => 'page',
 				'object_id' => '{{home}}',

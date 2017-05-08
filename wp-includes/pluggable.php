@@ -938,7 +938,10 @@ function wp_clear_auth_cookie() {
 		return;
 	}
 
+<<<<<<< HEAD
 	// Auth cookies
+=======
+>>>>>>> 7b810872a1235e3c703b5d2d68c418359b384525
 	setcookie( AUTH_COOKIE,        ' ', time() - YEAR_IN_SECONDS, ADMIN_COOKIE_PATH,   COOKIE_DOMAIN );
 	setcookie( SECURE_AUTH_COOKIE, ' ', time() - YEAR_IN_SECONDS, ADMIN_COOKIE_PATH,   COOKIE_DOMAIN );
 	setcookie( AUTH_COOKIE,        ' ', time() - YEAR_IN_SECONDS, PLUGINS_COOKIE_PATH, COOKIE_DOMAIN );
